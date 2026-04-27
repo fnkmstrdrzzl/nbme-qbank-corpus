@@ -1,7 +1,70 @@
 {
   "version": 1,
-  "updated_at": "2026-04-25T14:02:55Z",
+  "updated_at": "2026-04-27T20:44:59Z",
   "files": [
+    {
+      "filename": "HY_Biochem.json",
+      "subject": "Biochemistry",
+      "n_concepts": 128,
+      "n_phrases": 192,
+      "size_bytes": 246422,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Cardio.json",
+      "subject": "Cardiology",
+      "n_concepts": 191,
+      "n_phrases": 523,
+      "size_bytes": 488574,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Endocrine.json",
+      "subject": "Endocrinology",
+      "n_concepts": 210,
+      "n_phrases": 614,
+      "size_bytes": 558936,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Family_medicine_.json",
+      "subject": "Family Medicine",
+      "n_concepts": 1539,
+      "n_phrases": 3801,
+      "size_bytes": 3657113,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Gastrointestinal.json",
+      "subject": "Gastroenterology",
+      "n_concepts": 334,
+      "n_phrases": 820,
+      "size_bytes": 791169,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Heme_Onc.json",
+      "subject": "Hematology / Oncology",
+      "n_concepts": 157,
+      "n_phrases": 393,
+      "size_bytes": 376948,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Immunology.json",
+      "subject": "Immunology",
+      "n_concepts": 158,
+      "n_phrases": 376,
+      "size_bytes": 354555,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
     {
       "filename": "HY_Internal_Medicine.json",
       "subject": "Internal Medicine",
@@ -12,11 +75,92 @@
       "source_model": "qwen2.5-32b-instruct-mlx"
     },
     {
+      "filename": "HY_MSK_Anatomy.json",
+      "subject": "MSK / Anatomy",
+      "n_concepts": 176,
+      "n_phrases": 415,
+      "size_bytes": 404736,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Neuro.json",
+      "subject": "Neurology",
+      "n_concepts": 418,
+      "n_phrases": 842,
+      "size_bytes": 877490,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Obgyn.json",
+      "subject": "OB/GYN",
+      "n_concepts": 463,
+      "n_phrases": 1079,
+      "size_bytes": 1095384,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Ophthal.json",
+      "subject": "Ophthalmology",
+      "n_concepts": 59,
+      "n_phrases": 117,
+      "size_bytes": 117607,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
       "filename": "HY_Pathology.json",
       "subject": "Pathology",
       "n_concepts": 212,
       "n_phrases": 502,
       "size_bytes": 442055,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Pediatrics.json",
+      "subject": "Pediatrics",
+      "n_concepts": 858,
+      "n_phrases": 2116,
+      "size_bytes": 2022504,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Psych.json",
+      "subject": "Psychiatry",
+      "n_concepts": 303,
+      "n_phrases": 683,
+      "size_bytes": 688922,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Pulmonary.json",
+      "subject": "Pulmonology",
+      "n_concepts": 188,
+      "n_phrases": 507,
+      "size_bytes": 467591,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Renal.json",
+      "subject": "Nephrology",
+      "n_concepts": 136,
+      "n_phrases": 375,
+      "size_bytes": 350911,
+      "ingest_version": "v1.5.15",
+      "source_model": "qwen2.5-32b-instruct-mlx"
+    },
+    {
+      "filename": "HY_Surgery.json",
+      "subject": "Surgery",
+      "n_concepts": 1524,
+      "n_phrases": 3839,
+      "size_bytes": 3653005,
       "ingest_version": "v1.5.15",
       "source_model": "qwen2.5-32b-instruct-mlx"
     }

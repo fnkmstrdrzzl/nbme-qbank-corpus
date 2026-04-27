@@ -1,0 +1,2774 @@
+{
+  "source_pdf": "HY_Ophthal.pdf",
+  "total_entries_in_pdf": 59,
+  "entries_processed": 59,
+  "entries_ok": 56,
+  "entries_errored": 3,
+  "generated_at": "2026-04-26T14:38:09.052449+00:00",
+  "generated_at_last_update": "2026-04-26T15:07:13.214532+00:00",
+  "model": "qwen2.5-32b-instruct-mlx",
+  "prompt_version": "v1.5.14",
+  "script_version": "v1.5.15",
+  "entries": [
+    {
+      "entry_position": 1,
+      "index": 1,
+      "section": "(untitled)",
+      "key": "Extraocular nerve palsies",
+      "source_page": 6,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 23.87,
+        "http_status": 200,
+        "prompt_tokens": 1592,
+        "completion_tokens": 207,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 23.87,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"sixth nerve palsy with horizontal diplopia worse in lateral gaze\",\n      \"points_to\": \"abducens nerve (CN VI) palsy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\"]\n    },\n    {\n      \"phrase\": \"fourth nerve palsy with vertical diplopia worse on downgaze and head tilt\",\n      \"points_to\": \"trochlear nerve (CN IV) palsy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\"]\n    },\n    {\n      \"phrase\": \"third nerve palsy with ptosis, mydriasis, and diplopia\",\n      \"points_to\": \"oculomotor nerve (CN III) palsy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "sixth nerve palsy with horizontal diplopia worse in lateral gaze",
+            "points_to": "abducens nerve (CN VI) palsy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Neurology"
+            ]
+          },
+          {
+            "phrase": "fourth nerve palsy with vertical diplopia worse on downgaze and head tilt",
+            "points_to": "trochlear nerve (CN IV) palsy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Neurology"
+            ]
+          },
+          {
+            "phrase": "third nerve palsy with ptosis, mydriasis, and diplopia",
+            "points_to": "oculomotor nerve (CN III) palsy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Neurology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 2,
+      "index": 2,
+      "section": "(untitled)",
+      "key": "- A = CN III (oculomotor) lesion → presents as down and out.\n- B = CN IV (trochlear) lesion → presents as upward gaze + patient will tilt head toward unaffected side.\n- C = CN VI (abducens) lesion → medially directed eye.",
+      "source_page": 6,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 22.21,
+        "http_status": 200,
+        "prompt_tokens": 1647,
+        "completion_tokens": 177,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 22.21,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"down and out eye presentation\",\n      \"points_to\": \"CN III (oculomotor) lesion\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"upward gaze difficulty with head tilt toward unaffected side\",\n      \"points_to\": \"CN IV (trochlear) lesion\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"medially directed eye\",\n      \"points_to\": \"CN VI (abducens) lesion\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "down and out eye presentation",
+            "points_to": "CN III (oculomotor) lesion",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "upward gaze difficulty with head tilt toward unaffected side",
+            "points_to": "CN IV (trochlear) lesion",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "medially directed eye",
+            "points_to": "CN VI (abducens) lesion",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 3,
+      "index": 3,
+      "section": "Glaucoma",
+      "key": "Open-angle",
+      "source_page": 7,
+      "input_body_preview": "- Chronic eye condition characterized by increased intraocular pressure due to impaired\ndrainage of aqueous humor.\n- Unlike acute angle-closure (closed-angle) glaucoma, the drainage angle (canal of\nSc",
+      "timing": {
+        "total_s": 71.93,
+        "http_status": 200,
+        "prompt_tokens": 1852,
+        "completion_tokens": 565,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 71.93,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"increased intraocular pressure due to impaired drainage of aqueous humor\",\n      \"points_to\": \"Open-angle glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"progresses slowly and is usually painless\",\n      \"points_to\": \"Open-angle glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"peripheral vision loss (tunnel vision)\",\n      \"points_to\": \"Open-angle glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"optic nerve damage characterized by 'cupping of the optic disc'\",\n      \"points_to\": \"Open-angle glaucoma\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"increased cup-to-disc ratio\",\n      \"points_to\": \"Open-angle glaucoma\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"tonometry as the first step in management\",\n      \"points_to\": \"measure intraocular pressure\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"topical prostaglandins, such as latanoprost\",\n      \"points_to\": \"reduce intraocular pressure by increasing outflow of aqueous humor\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"topical beta-blockers, such as timolol\",\n      \"points_to\": \"reduce intraocular pressure by decreasing production of aqueous humor\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"carbonic anhydrase inhibitors, such as dorzolamide\",\n      \"points_to\": \"reduce intraocular pressure by decreasing production of aqueous humor\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"pilocarpine\",\n      \"points_to\": \"reduce intraocular pressure by increasing outflow of aqueous humor and constricting the pupil\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "increased intraocular pressure due to impaired drainage of aqueous humor",
+            "points_to": "Open-angle glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "progresses slowly and is usually painless",
+            "points_to": "Open-angle glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "peripheral vision loss (tunnel vision)",
+            "points_to": "Open-angle glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "optic nerve damage characterized by 'cupping of the optic disc'",
+            "points_to": "Open-angle glaucoma",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "increased cup-to-disc ratio",
+            "points_to": "Open-angle glaucoma",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "tonometry as the first step in management",
+            "points_to": "measure intraocular pressure",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "topical prostaglandins, such as latanoprost",
+            "points_to": "reduce intraocular pressure by increasing outflow of aqueous humor",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "topical beta-blockers, such as timolol",
+            "points_to": "reduce intraocular pressure by decreasing production of aqueous humor",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "carbonic anhydrase inhibitors, such as dorzolamide",
+            "points_to": "reduce intraocular pressure by decreasing production of aqueous humor",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "pilocarpine",
+            "points_to": "reduce intraocular pressure by increasing outflow of aqueous humor and constricting the pupil",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 4,
+      "index": 4,
+      "section": "Glaucoma",
+      "key": "Closed-angle",
+      "source_page": 7,
+      "input_body_preview": "- Presents on USMLE as a very buzzy red, teary, painful eye with a fixed mid-dilated pupil.\n- Due to closure of the drainage angle (canal of Schlemm) between the cornea and the iris,\nleading to a rapi",
+      "timing": {
+        "total_s": 37.61,
+        "http_status": 200,
+        "prompt_tokens": 1763,
+        "completion_tokens": 299,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 37.61,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"very buzzy red, teary, painful eye with a fixed mid-dilated pupil\",\n      \"points_to\": \"closed-angle glaucoma\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"intense eye pain, headache, nausea, vomiting, blurred vision, and seeing colored rings or halos\",\n      \"points_to\": \"closed-angle glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"increased IOP confirmed by tonometry\",\n      \"points_to\": \"closed-angle glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"closed-angle glaucoma\",\n      \"points_to\": \"IV mannitol, timolol, pilocarpine, or alpha-2 agonists such as brimonidine\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"cause\": \"closure of the drainage angle (canal of Schlemm) between the cornea and the iris\",\n    \"symptoms\": \"compression of the optic nerve and blood vessels\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "very buzzy red, teary, painful eye with a fixed mid-dilated pupil",
+            "points_to": "closed-angle glaucoma",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "intense eye pain, headache, nausea, vomiting, blurred vision, and seeing colored rings or halos",
+            "points_to": "closed-angle glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "increased IOP confirmed by tonometry",
+            "points_to": "closed-angle glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "closed-angle glaucoma",
+            "points_to": "IV mannitol, timolol, pilocarpine, or alpha-2 agonists such as brimonidine",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "cause": "closure of the drainage angle (canal of Schlemm) between the cornea and the iris",
+          "symptoms": "compression of the optic nerve and blood vessels"
+        }
+      }
+    },
+    {
+      "entry_position": 5,
+      "index": 5,
+      "section": "Glaucoma",
+      "key": "Macular degeneration",
+      "source_page": 7,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 2.24,
+        "http_status": 200,
+        "prompt_tokens": 1591,
+        "completion_tokens": 10,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 2.24,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": []\n}",
+      "parsed": {
+        "pointer_phrases": []
+      }
+    },
+    {
+      "entry_position": 6,
+      "index": 6,
+      "section": "Glaucoma",
+      "key": "- USMLE wants you to know that \"wavy lines\" on a straight-line Amsler test = macular degeneration.\n- Characterized by loss of central vision.\n- Fundoscopy shows drusen, which are yellow lipoproteinaceous deposits.\n- There are dry (atrophic) and wet (neovascular) types of macular degeneration.\n- Most commonly occurs idiopathically due to age (i.e., age-related macular degeneration).\n- Dry is treated supportively; wet is treated with anti-VEGF agents and sometimes laser therapy.",
+      "source_page": 7,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 31.37,
+        "http_status": 200,
+        "prompt_tokens": 1704,
+        "completion_tokens": 255,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 31.37,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"wavy lines on a straight-line Amsler test\",\n      \"points_to\": \"macular degeneration\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"loss of central vision\",\n      \"points_to\": \"macular degeneration\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"fundoscopy shows drusen, which are yellow lipoproteinaceous deposits\",\n      \"points_to\": \"macular degeneration\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"wet macular degeneration\",\n      \"points_to\": \"anti-VEGF agents and sometimes laser therapy\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"types\": \"dry (atrophic) and wet (neovascular)\",\n    \"common_cause\": \"age-related macular degeneration\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "wavy lines on a straight-line Amsler test",
+            "points_to": "macular degeneration",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "loss of central vision",
+            "points_to": "macular degeneration",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "fundoscopy shows drusen, which are yellow lipoproteinaceous deposits",
+            "points_to": "macular degeneration",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "wet macular degeneration",
+            "points_to": "anti-VEGF agents and sometimes laser therapy",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "types": "dry (atrophic) and wet (neovascular)",
+          "common_cause": "age-related macular degeneration"
+        }
+      }
+    },
+    {
+      "entry_position": 7,
+      "index": 7,
+      "section": "Glaucoma",
+      "key": "Retinitis pigmentosa",
+      "source_page": 8,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 11.45,
+        "http_status": 200,
+        "prompt_tokens": 1592,
+        "completion_tokens": 89,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 11.45,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"patient with retinitis pigmentosa and glaucoma\",\n      \"points_to\": \"glaucoma associated with retinitis pigmentosa\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"condition\": \"Retinitis pigmentosa\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "patient with retinitis pigmentosa and glaucoma",
+            "points_to": "glaucoma associated with retinitis pigmentosa",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "condition": "Retinitis pigmentosa"
+        }
+      }
+    },
+    {
+      "entry_position": 8,
+      "index": 8,
+      "section": "Glaucoma",
+      "key": "- Presents on USMLE as a combo of nyctalopia (loss of night vision) and loss of peripheral vision.\n- There will often be a family history. Fundoscopy shows characteristic pigmentation.",
+      "source_page": 8,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 14.63,
+        "http_status": 200,
+        "prompt_tokens": 1627,
+        "completion_tokens": 115,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 14.63,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"nyctalopia and loss of peripheral vision\",\n      \"points_to\": \"glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"family history and characteristic pigmentation on fundoscopy\",\n      \"points_to\": \"glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "nyctalopia and loss of peripheral vision",
+            "points_to": "glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "family history and characteristic pigmentation on fundoscopy",
+            "points_to": "glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 9,
+      "index": 9,
+      "section": "Glaucoma",
+      "key": "Retinal detachment",
+      "source_page": 8,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 25.47,
+        "http_status": 200,
+        "prompt_tokens": 1590,
+        "completion_tokens": 209,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 25.47,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"sudden onset of floaters and flashes of light\",\n      \"points_to\": \"retinal detachment\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"curtain-like shadow over the visual field\",\n      \"points_to\": \"retinal detachment\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"peripheral visual field loss\",\n      \"points_to\": \"retinal detachment\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"detached retina seen on ophthalmoscopy\",\n      \"points_to\": \"retinal detachment\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "sudden onset of floaters and flashes of light",
+            "points_to": "retinal detachment",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "curtain-like shadow over the visual field",
+            "points_to": "retinal detachment",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "peripheral visual field loss",
+            "points_to": "retinal detachment",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "detached retina seen on ophthalmoscopy",
+            "points_to": "retinal detachment",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 10,
+      "index": 10,
+      "section": "Glaucoma",
+      "key": "- Occurs classically in those with sudden trauma to the eye or severe myopia.\n- The fundoscopy is HY and important for USMLE.\n- Treatment is surgical and includes pneumatic retinopexy (i.e., gas bubble is injected into the eye to push\nthe retina back into place; scleral buckling (piece of silicone is attached to the sclera to exert posteriorly-\ndirected pressure so the retina reattaches); and vitrectomy (vitreous humor is removed and replaced with\ngas or silicone oil to flatten the retina).",
+      "source_page": 8,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 31.0,
+        "http_status": 200,
+        "prompt_tokens": 1703,
+        "completion_tokens": 249,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 31.0,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"sudden trauma to the eye\",\n      \"points_to\": \"retinal detachment\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"severe myopia\",\n      \"points_to\": \"retinal detachment\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with retinal detachment\",\n      \"points_to\": \"pneumatic retinopexy\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with retinal detachment\",\n      \"points_to\": \"scleral buckling\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with retinal detachment\",\n      \"points_to\": \"vitrectomy\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "sudden trauma to the eye",
+            "points_to": "retinal detachment",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "severe myopia",
+            "points_to": "retinal detachment",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with retinal detachment",
+            "points_to": "pneumatic retinopexy",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with retinal detachment",
+            "points_to": "scleral buckling",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with retinal detachment",
+            "points_to": "vitrectomy",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 11,
+      "index": 11,
+      "section": "Glaucoma",
+      "key": "Vitreous hemorrhage",
+      "source_page": 9,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 20.95,
+        "http_status": 200,
+        "prompt_tokens": 1592,
+        "completion_tokens": 173,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 20.95,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"sudden onset of floaters and decreased vision\",\n      \"points_to\": \"vitreous hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"trauma or retinal tear leading to vitreous hemorrhage\",\n      \"points_to\": \"vitreous hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with glaucoma and sudden vision loss\",\n      \"points_to\": \"vitreous hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "sudden onset of floaters and decreased vision",
+            "points_to": "vitreous hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "trauma or retinal tear leading to vitreous hemorrhage",
+            "points_to": "vitreous hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with glaucoma and sudden vision loss",
+            "points_to": "vitreous hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 12,
+      "index": 12,
+      "section": "Glaucoma",
+      "key": "- USMLE wants you to know that the biggest risk factors for bleeding into the vitreous are diabetes and\nhypertension.\n- Vitreous hemorrhage will usually be a distractor, where they can tell you a young boxer was hit in the eye,\nbut the answer is retinal detachment, not vitreous hemorrhage.",
+      "source_page": 9,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 14.43,
+        "http_status": 200,
+        "prompt_tokens": 1655,
+        "completion_tokens": 112,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 14.43,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"bleeding into the vitreous\",\n      \"points_to\": \"vitreous hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"diabetes and hypertension\",\n      \"points_to\": \"vitreous hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "bleeding into the vitreous",
+            "points_to": "vitreous hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "diabetes and hypertension",
+            "points_to": "vitreous hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 13,
+      "index": 13,
+      "section": "Glaucoma",
+      "key": "Central retinal artery occlusion",
+      "source_page": 9,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 22.53,
+        "http_status": 200,
+        "prompt_tokens": 1593,
+        "completion_tokens": 189,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 22.53,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"sudden painless loss of vision in one eye\",\n      \"points_to\": \"Central retinal artery occlusion (CRAO)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"cherry-red spot on fundoscopy\",\n      \"points_to\": \"Central retinal artery occlusion (CRAO)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with CRAO should be evaluated for carotid artery disease\",\n      \"points_to\": \"evaluation for carotid artery disease in CRAO\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "sudden painless loss of vision in one eye",
+            "points_to": "Central retinal artery occlusion (CRAO)",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "cherry-red spot on fundoscopy",
+            "points_to": "Central retinal artery occlusion (CRAO)",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with CRAO should be evaluated for carotid artery disease",
+            "points_to": "evaluation for carotid artery disease in CRAO",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 14,
+      "index": 14,
+      "section": "Glaucoma",
+      "key": "- Presents as sudden, painless vision loss in a patient where a \"curtain comes down.\"\n- Due to 1) carotid atheroma (in setting of HTN) that's launched off to the eye, or 2) left atrial mural\nthrombus (in setting of atrial fibrillation) that's launched off to the eye.\n- A pale retina will be seen on fundoscopy with a cherry red spot due to maintenance of perfusion from the\nchoroidal artery.\n- Ocular massage can be attempted as Tx, where the embolus may be dislodged, restoring perfusion.",
+      "source_page": 9,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 38.71,
+        "http_status": 200,
+        "prompt_tokens": 1716,
+        "completion_tokens": 300,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 38.71,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"sudden, painless vision loss with a 'curtain coming down'\",\n      \"points_to\": \"central retinal artery occlusion (CRAO)\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"pale retina with a cherry red spot on fundoscopy\",\n      \"points_to\": \"central retinal artery occlusion (CRAO)\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with HTN and carotid atheroma or atrial fibrillation with left atrial mural thrombus\",\n      \"points_to\": \"central retinal artery occlusion (CRAO)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with central retinal artery occlusion (CRAO)\",\n      \"points_to\": \"ocular massage\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"causes\": [\"carotid atheroma\", \"left atrial mural thrombus\"],\n    \"risk_factors\": [\"hypertension\", \"atrial fibrillation\"]\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "sudden, painless vision loss with a 'curtain coming down'",
+            "points_to": "central retinal artery occlusion (CRAO)",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "pale retina with a cherry red spot on fundoscopy",
+            "points_to": "central retinal artery occlusion (CRAO)",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with HTN and carotid atheroma or atrial fibrillation with left atrial mural thrombus",
+            "points_to": "central retinal artery occlusion (CRAO)",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with central retinal artery occlusion (CRAO)",
+            "points_to": "ocular massage",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "causes": [
+            "carotid atheroma",
+            "left atrial mural thrombus"
+          ],
+          "risk_factors": [
+            "hypertension",
+            "atrial fibrillation"
+          ]
+        }
+      }
+    },
+    {
+      "entry_position": 15,
+      "index": 15,
+      "section": "Glaucoma",
+      "key": "Diabetic retinopathy",
+      "source_page": 10,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 16.9,
+        "http_status": 200,
+        "prompt_tokens": 1592,
+        "completion_tokens": 138,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 16.9,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"patient with diabetes and microaneurysms, hemorrhages, exudates on fundoscopy\",\n      \"points_to\": \"diabetic retinopathy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with diabetes and neovascularization on fundoscopy\",\n      \"points_to\": \"proliferative diabetic retinopathy\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "patient with diabetes and microaneurysms, hemorrhages, exudates on fundoscopy",
+            "points_to": "diabetic retinopathy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with diabetes and neovascularization on fundoscopy",
+            "points_to": "proliferative diabetic retinopathy",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 16,
+      "index": 16,
+      "section": "Glaucoma",
+      "key": "- Can present in numerous ways, such as with blurred or fluctuating vision, and difficulty recognizing colors.\n- The USMLE vignette will usually say things like cotton wool spots (soft exudates), hard exudates, and\nretinal hemorrhages.\n- Soft exudates are small, whitish lesions on the retina caused by microinfarctions and are axoplasmic\nmaterial; hard exudates are lipoproteinaceous deposits due to leaky retinal vessels.\n- Soft/hard exudates and retinal hemorrhages are seen classically in both diabetic and hypertensive\nretinopathies.\n- Can be dry or wet (neovascular). Wet type can be treated with anti-VEGF agents.",
+      "source_page": 10,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 29.91,
+        "http_status": 200,
+        "prompt_tokens": 1737,
+        "completion_tokens": 236,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 29.91,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"cotton wool spots, hard exudates, and retinal hemorrhages\",\n      \"points_to\": \"glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"soft exudates and retinal hemorrhages\",\n      \"points_to\": \"diabetic retinopathy or hypertensive retinopathy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"wet type glaucoma\",\n      \"points_to\": \"anti-VEGF agents treatment\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"symptoms\": \"blurred or fluctuating vision, difficulty recognizing colors\",\n    \"lesions\": \"cotton wool spots (soft exudates), hard exudates, retinal hemorrhages\",\n    \"types\": \"dry or wet (neovascular)\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "cotton wool spots, hard exudates, and retinal hemorrhages",
+            "points_to": "glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "soft exudates and retinal hemorrhages",
+            "points_to": "diabetic retinopathy or hypertensive retinopathy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "wet type glaucoma",
+            "points_to": "anti-VEGF agents treatment",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "symptoms": "blurred or fluctuating vision, difficulty recognizing colors",
+          "lesions": "cotton wool spots (soft exudates), hard exudates, retinal hemorrhages",
+          "types": "dry or wet (neovascular)"
+        }
+      }
+    },
+    {
+      "entry_position": 17,
+      "index": 17,
+      "section": "Glaucoma",
+      "key": "Hypertensive retinopathy",
+      "source_page": 11,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 16.8,
+        "http_status": 200,
+        "prompt_tokens": 1593,
+        "completion_tokens": 135,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 16.8,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"patient with elevated blood pressure and retinal changes on fundoscopy\",\n      \"points_to\": \"hypertensive retinopathy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"retinal hemorrhages, exudates, and cotton-wool spots on fundoscopy\",\n      \"points_to\": \"hypertensive retinopathy\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "patient with elevated blood pressure and retinal changes on fundoscopy",
+            "points_to": "hypertensive retinopathy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "retinal hemorrhages, exudates, and cotton-wool spots on fundoscopy",
+            "points_to": "hypertensive retinopathy",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 18,
+      "index": 18,
+      "section": "Glaucoma",
+      "key": "- Buzzy findings like AV nicking and arteriolar narrowing.\n- Q can mention \"sausage-like\" appearance of retinal arterioles.",
+      "source_page": 11,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 15.9,
+        "http_status": 200,
+        "prompt_tokens": 1617,
+        "completion_tokens": 126,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 15.9,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"AV nicking and arteriolar narrowing on fundoscopy\",\n      \"points_to\": \"glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"retinal arterioles with a 'sausage-like' appearance on fundoscopy\",\n      \"points_to\": \"glaucoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "AV nicking and arteriolar narrowing on fundoscopy",
+            "points_to": "glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "retinal arterioles with a 'sausage-like' appearance on fundoscopy",
+            "points_to": "glaucoma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 19,
+      "index": 19,
+      "section": "Glaucoma",
+      "key": "Dyslipidemia",
+      "source_page": 11,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 2.21,
+        "http_status": 200,
+        "prompt_tokens": 1591,
+        "completion_tokens": 10,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 2.21,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": []\n}",
+      "parsed": {
+        "pointer_phrases": []
+      }
+    },
+    {
+      "entry_position": 20,
+      "index": 20,
+      "section": "Glaucoma",
+      "key": "- Orbital xanthomata (cholesterol deposits; left image) and corneal arcus (lipid deposits; right image).\n- Both can occasionally be seen idiopathically in patients without lipid disorders (the latter in elderly).",
+      "source_page": 11,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 18.69,
+        "http_status": 200,
+        "prompt_tokens": 1636,
+        "completion_tokens": 147,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 18.69,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"orbital xanthomata (cholesterol deposits)\",\n      \"points_to\": \"hyperlipidemia\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Endocrine\"]\n    },\n    {\n      \"phrase\": \"corneal arcus (lipid deposits)\",\n      \"points_to\": \"hyperlipidemia\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Endocrine\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"note\": \"Both can occasionally be seen idiopathically in patients without lipid disorders (corneal arcus especially in elderly)\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "orbital xanthomata (cholesterol deposits)",
+            "points_to": "hyperlipidemia",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Endocrine"
+            ]
+          },
+          {
+            "phrase": "corneal arcus (lipid deposits)",
+            "points_to": "hyperlipidemia",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Endocrine"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "note": "Both can occasionally be seen idiopathically in patients without lipid disorders (corneal arcus especially in elderly)"
+        }
+      }
+    },
+    {
+      "entry_position": 21,
+      "index": 21,
+      "section": "Glaucoma",
+      "key": "Corneal abrasion",
+      "source_page": 11,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 8.45,
+        "http_status": 200,
+        "prompt_tokens": 1592,
+        "completion_tokens": 65,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 8.45,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"corneal abrasion\",\n      \"points_to\": \"Corneal abrasion\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "corneal abrasion",
+            "points_to": "Corneal abrasion",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 22,
+      "index": 22,
+      "section": "Glaucoma",
+      "key": "- Scratchy or tearing sensation of the eye. Can be caused by contact lens-use or coming into contact with\nirritants such as sand (i.e., playing in sandbox with son/daughter).\n- USMLE will either ask for the next best step, where the answer is \"instillation of fluorescein into the eye,\"\nor they will show you the following image (which is a fluorescein instillation) and then just ask for the\ndiagnosis (i.e., corneal abrasion).",
+      "source_page": 11,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 18.02,
+        "http_status": 200,
+        "prompt_tokens": 1691,
+        "completion_tokens": 140,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 18.02,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"scratchy or tearing sensation of the eye\",\n      \"points_to\": \"corneal abrasion\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"instillation of fluorescein into the eye\",\n      \"points_to\": \"diagnosis of corneal abrasion\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"causes\": \"contact lens-use, irritants such as sand\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "scratchy or tearing sensation of the eye",
+            "points_to": "corneal abrasion",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "instillation of fluorescein into the eye",
+            "points_to": "diagnosis of corneal abrasion",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "causes": "contact lens-use, irritants such as sand"
+        }
+      }
+    },
+    {
+      "entry_position": 23,
+      "index": 23,
+      "section": "Glaucoma",
+      "key": "Subconjunctival hemorrhage",
+      "source_page": 12,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 8.68,
+        "http_status": 200,
+        "prompt_tokens": 1593,
+        "completion_tokens": 67,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 8.68,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"subconjunctival hemorrhage\",\n      \"points_to\": \"Subconjunctival hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "subconjunctival hemorrhage",
+            "points_to": "Subconjunctival hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 24,
+      "index": 24,
+      "section": "Glaucoma",
+      "key": "- Buzzy image / spot-diagnosis for USMLE.\n- Caused by bursting of superficial conjunctival vessels. Looks sinister but self-resolves uneventfully.\n- Can be caused by trauma or brief periods of increased pressure (i.e., severe vomiting or coughing).",
+      "source_page": 12,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 16.47,
+        "http_status": 200,
+        "prompt_tokens": 1642,
+        "completion_tokens": 128,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 16.47,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"bursting of superficial conjunctival vessels\",\n      \"points_to\": \"conjunctival hemorrhage\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"trauma or brief periods of increased pressure (i.e., severe vomiting or coughing)\",\n      \"points_to\": \"conjunctival hemorrhage\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "bursting of superficial conjunctival vessels",
+            "points_to": "conjunctival hemorrhage",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "trauma or brief periods of increased pressure (i.e., severe vomiting or coughing)",
+            "points_to": "conjunctival hemorrhage",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 25,
+      "index": 25,
+      "section": "Iris abnormalities",
+      "key": "Aniridia",
+      "source_page": 13,
+      "input_body_preview": "- Seen as part of WAGR complex with WT1 mutations - i.e., Wilms tumor, Aniridia,\nGenitourinary anomalies, Retardation.",
+      "timing": {
+        "total_s": 19.12,
+        "http_status": 200,
+        "prompt_tokens": 1623,
+        "completion_tokens": 154,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 19.12,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"absence of iris tissue\",\n      \"points_to\": \"Aniridia\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with Wilms tumor, aniridia, genitourinary anomalies, and mental retardation\",\n      \"points_to\": \"WAGR complex\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\", \"Renal / Genitourinary\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"gene\": \"WT1\",\n    \"complex\": \"WAGR complex\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "absence of iris tissue",
+            "points_to": "Aniridia",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with Wilms tumor, aniridia, genitourinary anomalies, and mental retardation",
+            "points_to": "WAGR complex",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology",
+              "Renal / Genitourinary"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "gene": "WT1",
+          "complex": "WAGR complex"
+        }
+      }
+    },
+    {
+      "entry_position": 26,
+      "index": 26,
+      "section": "Iris abnormalities",
+      "key": "Coloboma",
+      "source_page": 13,
+      "input_body_preview": "- Means hole in the eye. Seen in CHARGE syndrome, → Coloboma of the eye, Heart\ndefects, Atresia of the choanae, Retardation of growth and development, Genitourinary\nanomalies, Ear defects.",
+      "timing": {
+        "total_s": 17.39,
+        "http_status": 200,
+        "prompt_tokens": 1645,
+        "completion_tokens": 135,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 17.39,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"hole in the iris\",\n      \"points_to\": \"coloboma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"coloboma of the eye, heart defects, atresia of the choanae, retardation of growth and development, genitourinary anomalies, ear defects\",\n      \"points_to\": \"CHARGE syndrome\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Misc\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "hole in the iris",
+            "points_to": "coloboma",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "coloboma of the eye, heart defects, atresia of the choanae, retardation of growth and development, genitourinary anomalies, ear defects",
+            "points_to": "CHARGE syndrome",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Misc"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 27,
+      "index": 27,
+      "section": "Iris abnormalities",
+      "key": "Albinism",
+      "source_page": 13,
+      "input_body_preview": "- Can cause pale blue or pink irides (pleural for iris).",
+      "timing": {
+        "total_s": 8.55,
+        "http_status": 200,
+        "prompt_tokens": 1604,
+        "completion_tokens": 65,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 8.55,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"pale blue or pink irides\",\n      \"points_to\": \"albinism\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "pale blue or pink irides",
+            "points_to": "albinism",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 28,
+      "index": 28,
+      "section": "Iris abnormalities",
+      "key": "Lisch nodules",
+      "source_page": 14,
+      "input_body_preview": "- Iris hamartomas seen in NF1.\n- NF1 can present with axillary and groin freckling, café au lait spots (hyperpigmented\nmacules), optic glioma (tumor of CN II), neurofibromas (nodules under the skin),\n",
+      "timing": {
+        "total_s": 48.31,
+        "http_status": 200,
+        "prompt_tokens": 1675,
+        "completion_tokens": 400,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 49.15,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Misc.' not in taxonomy"
+        },
+        {
+          "attempt": 2,
+          "timing_s": 47.4,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Misc.' not in taxonomy"
+        },
+        {
+          "attempt": 3,
+          "timing_s": 46.26,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Misc.' not in taxonomy"
+        },
+        {
+          "attempt": 4,
+          "timing_s": 48.31,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Misc.' not in taxonomy"
+        }
+      ],
+      "status": "retry_exhausted",
+      "error": "schema_error: pointer_phrases[1].organ_systems[0]='Misc.' not in taxonomy",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"iris hamartomas\",\n      \"points_to\": \"Lisch nodules\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"multiple café au lait spots\",\n      \"points_to\": \"Neurofibromatosis type 1 (NF1)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Misc.\"]\n    },\n    {\n      \"phrase\": \"axillary and groin freckling\",\n      \"points_to\": \"Neurofibromatosis type 1 (NF1)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Misc.\"]\n    },\n    {\n      \"phrase\": \"optic glioma\",\n      \"points_to\": \"Neurofibromatosis type 1 (NF1)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"neurofibromas\",\n      \"points_to\": \"Neurofibromatosis type 1 (NF1)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Misc.\"]\n    },\n    {\n      \"phrase\": \"pheochromocytoma\",\n      \"points_to\": \"Neurofibromatosis type 1 (NF1)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Misc.\"]\n    },\n    {\n      \"phrase\": \"ependymoma or oligodendroglioma\",\n      \"points_to\": \"Neurofibromatosis type 1 (NF1)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"gene\": \"NF1\",\n    \"inheritance\": \"autosomal dominant\"\n  }\n}"
+    },
+    {
+      "entry_position": 29,
+      "index": 29,
+      "section": "Iris abnormalities",
+      "key": "Brushfield\nspots",
+      "source_page": 14,
+      "input_body_preview": "- Connective tissue deposits seen within the irides of some patients with Down syndrome.",
+      "timing": {
+        "total_s": 10.25,
+        "http_status": 200,
+        "prompt_tokens": 1607,
+        "completion_tokens": 81,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 10.25,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"connective tissue deposits seen within the irides\",\n      \"points_to\": \"Down syndrome\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\", \"Pediatrics\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"name\": \"Brushfield spots\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "connective tissue deposits seen within the irides",
+            "points_to": "Down syndrome",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology",
+              "Pediatrics"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "name": "Brushfield spots"
+        }
+      }
+    },
+    {
+      "entry_position": 30,
+      "index": 30,
+      "section": "Orbital cellulitis",
+      "key": "",
+      "source_page": 15,
+      "input_body_preview": "- Infection involving tissues posterior to orbital septum.\n- Staph aureus most common cause.\n- Rare sequela of adjacent infection, e.g., from the paranasal sinus.\n- Medical emergency + requires IV ant",
+      "timing": {
+        "total_s": 22.93,
+        "http_status": 200,
+        "prompt_tokens": 1651,
+        "completion_tokens": 187,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 22.93,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"infection involving tissues posterior to orbital septum\",\n      \"points_to\": \"orbital cellulitis\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"medical emergency requiring IV antibiotics\",\n      \"points_to\": \"orbital cellulitis\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"rare sequela of adjacent infection, e.g., from the paranasal sinus\",\n      \"points_to\": \"orbital cellulitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"common_cause\": \"Staph aureus\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "infection involving tissues posterior to orbital septum",
+            "points_to": "orbital cellulitis",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "medical emergency requiring IV antibiotics",
+            "points_to": "orbital cellulitis",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "rare sequela of adjacent infection, e.g., from the paranasal sinus",
+            "points_to": "orbital cellulitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "common_cause": "Staph aureus"
+        }
+      }
+    },
+    {
+      "entry_position": 31,
+      "index": 31,
+      "section": "Orbital cellulitis",
+      "key": "Hordeolum\n(stye)",
+      "source_page": 15,
+      "input_body_preview": "- Painful bump on the eyelid.\n- Staph aureus infection of sweat gland or oil duct.\n- Treat with warm compresses.",
+      "timing": {
+        "total_s": 18.15,
+        "http_status": 200,
+        "prompt_tokens": 1622,
+        "completion_tokens": 146,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 18.15,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"painful bump on the eyelid\",\n      \"points_to\": \"Hordeolum (stye)\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with hordeolum (stye)\",\n      \"points_to\": \"warm compresses\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"causative_agent\": \"Staph aureus\",\n    \"infection_site\": \"sweat gland or oil duct\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "painful bump on the eyelid",
+            "points_to": "Hordeolum (stye)",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with hordeolum (stye)",
+            "points_to": "warm compresses",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "causative_agent": "Staph aureus",
+          "infection_site": "sweat gland or oil duct"
+        }
+      }
+    },
+    {
+      "entry_position": 32,
+      "index": 32,
+      "section": "Orbital cellulitis",
+      "key": "Chalazion",
+      "source_page": 15,
+      "input_body_preview": "- Painless bump on the eyelid.\n- Blocked oil duct; not an infection.\n- Ttreat with warm compresses.",
+      "timing": {
+        "total_s": 19.34,
+        "http_status": 200,
+        "prompt_tokens": 1619,
+        "completion_tokens": 158,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 19.34,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"painless bump on the eyelid\",\n      \"points_to\": \"chalazion\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"blocked oil duct on the eyelid\",\n      \"points_to\": \"chalazion\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"painless bump on the eyelid\",\n      \"points_to\": \"warm compresses\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "painless bump on the eyelid",
+            "points_to": "chalazion",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "blocked oil duct on the eyelid",
+            "points_to": "chalazion",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "painless bump on the eyelid",
+            "points_to": "warm compresses",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 33,
+      "index": 33,
+      "section": "Retinoblastoma",
+      "key": "",
+      "source_page": 16,
+      "input_body_preview": "- The image shows leukocoria, which is an abnormal white appearance of the eye on\nlight reflex (should normally appear red).\n- USMLE wants you to know that RB gene mutations not only cause congenital\n",
+      "timing": {
+        "total_s": 17.54,
+        "http_status": 200,
+        "prompt_tokens": 1680,
+        "completion_tokens": 151,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 18.86,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Oncology' not in taxonomy"
+        },
+        {
+          "attempt": 2,
+          "timing_s": 18.04,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Oncology' not in taxonomy"
+        },
+        {
+          "attempt": 3,
+          "timing_s": 18.49,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Oncology' not in taxonomy"
+        },
+        {
+          "attempt": 4,
+          "timing_s": 17.54,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[1].organ_systems[0]='Oncology' not in taxonomy"
+        }
+      ],
+      "status": "retry_exhausted",
+      "error": "schema_error: pointer_phrases[1].organ_systems[0]='Oncology' not in taxonomy",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"abnormal white appearance of the eye on light reflex (leukocoria)\",\n      \"points_to\": \"Retinoblastoma\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"child with retinoblastoma\",\n      \"points_to\": \"increased risk of osteosarcoma\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Oncology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"gene\": \"RB\",\n    \"risk\": \"increased risk of osteosarcoma\"\n  }\n}"
+    },
+    {
+      "entry_position": 34,
+      "index": 34,
+      "section": "Retinoblastoma",
+      "key": "Strabismus",
+      "source_page": 16,
+      "input_body_preview": "- Means \"lazy eye,\" or misalignment of the eyes, due to weakened muscles in one eye.\n- Can lead to amblyopia, which is reduced visual acuity in the weak eye due to the brain\nfavoring the stronger eye ",
+      "timing": {
+        "total_s": 17.35,
+        "http_status": 200,
+        "prompt_tokens": 1688,
+        "completion_tokens": 130,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 17.35,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"misalignment of the eyes due to weakened muscles in one eye\",\n      \"points_to\": \"strabismus\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"reduced visual acuity in the weak eye due to the brain favoring the stronger eye during development\",\n      \"points_to\": \"amblyopia\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "misalignment of the eyes due to weakened muscles in one eye",
+            "points_to": "strabismus",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "reduced visual acuity in the weak eye due to the brain favoring the stronger eye during development",
+            "points_to": "amblyopia",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 35,
+      "index": 35,
+      "section": "UV light-induced Ophthal pathologies",
+      "key": "Cataracts",
+      "source_page": 16,
+      "input_body_preview": "- Progressive clouding or opacification of the lens, leading to blurred or hazy vision,\nparticularly in bright light, with increased glare sensitivity.\n- Can be caused by sunlight, but the most import",
+      "timing": {
+        "total_s": 30.66,
+        "http_status": 200,
+        "prompt_tokens": 1727,
+        "completion_tokens": 238,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 30.66,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"progressive clouding or opacification of the lens, leading to blurred or hazy vision, particularly in bright light, with increased glare sensitivity\",\n      \"points_to\": \"cataracts\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"recent changes in visual acuity\",\n      \"points_to\": \"diabetes mellitus\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Endocrine\"]\n    },\n    {\n      \"phrase\": \"congenital rubella, congenital syphilis, or NF2 in a pediatric patient\",\n      \"points_to\": \"cataracts\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\", \"Pediatrics\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"cause\": \"diabetes mellitus\",\n    \"mechanism\": \"high glucose entering the lens → converted to sorbitol via aldose reductase → osmotic damage\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "progressive clouding or opacification of the lens, leading to blurred or hazy vision, particularly in bright light, with increased glare sensitivity",
+            "points_to": "cataracts",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "recent changes in visual acuity",
+            "points_to": "diabetes mellitus",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Endocrine"
+            ]
+          },
+          {
+            "phrase": "congenital rubella, congenital syphilis, or NF2 in a pediatric patient",
+            "points_to": "cataracts",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology",
+              "Pediatrics"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "cause": "diabetes mellitus",
+          "mechanism": "high glucose entering the lens → converted to sorbitol via aldose reductase → osmotic damage"
+        }
+      }
+    },
+    {
+      "entry_position": 36,
+      "index": 36,
+      "section": "UV light-induced Ophthal pathologies",
+      "key": "Melanoma",
+      "source_page": 16,
+      "input_body_preview": "- Melanomas can grow from the conjunctiva and cornea. Just be aware they exist.",
+      "timing": {
+        "total_s": 9.75,
+        "http_status": 200,
+        "prompt_tokens": 1616,
+        "completion_tokens": 72,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 9.75,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"melanoma growing from the conjunctiva or cornea\",\n      \"points_to\": \"ocular melanoma\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "melanoma growing from the conjunctiva or cornea",
+            "points_to": "ocular melanoma",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 37,
+      "index": 37,
+      "section": "UV light-induced Ophthal pathologies",
+      "key": "Pterygium",
+      "source_page": 17,
+      "input_body_preview": "- Non-cancerous overgrowth of non-keratinized stratified squamous epithelium growing\nfrom the conjunctiva.\n- Crosses over the cornea (clear part of the eye covering the iris and pupil).\n- History of s",
+      "timing": {
+        "total_s": 17.0,
+        "http_status": 200,
+        "prompt_tokens": 1653,
+        "completion_tokens": 127,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 17.0,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"non-keratinized stratified squamous epithelium growing from the conjunctiva and crossing over the cornea\",\n      \"points_to\": \"Pterygium\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"history of sun exposure\",\n      \"points_to\": \"Pterygium\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "non-keratinized stratified squamous epithelium growing from the conjunctiva and crossing over the cornea",
+            "points_to": "Pterygium",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "history of sun exposure",
+            "points_to": "Pterygium",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 38,
+      "index": 38,
+      "section": "UV light-induced Ophthal pathologies",
+      "key": "Pinguecula",
+      "source_page": 17,
+      "input_body_preview": "- Yellow-white benign lesion on the conjunctiva composed of protein and fat.\n- Does not cross over the cornea.\n- Sunlight is the major risk factor.",
+      "timing": {
+        "total_s": 12.42,
+        "http_status": 200,
+        "prompt_tokens": 1630,
+        "completion_tokens": 90,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 12.42,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"yellow-white benign lesion on the conjunctiva that does not cross over the cornea\",\n      \"points_to\": \"Pinguecula\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"risk_factor\": \"sunlight exposure\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "yellow-white benign lesion on the conjunctiva that does not cross over the cornea",
+            "points_to": "Pinguecula",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "risk_factor": "sunlight exposure"
+        }
+      }
+    },
+    {
+      "entry_position": 39,
+      "index": 39,
+      "section": "UV light-induced Ophthal pathologies",
+      "key": "Papilledema",
+      "source_page": 18,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 8.78,
+        "http_status": 200,
+        "prompt_tokens": 1595,
+        "completion_tokens": 69,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 8.78,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"swelling of the optic disc on fundoscopy\",\n      \"points_to\": \"papilledema\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "swelling of the optic disc on fundoscopy",
+            "points_to": "papilledema",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 40,
+      "index": 40,
+      "section": "UV light-induced Ophthal pathologies",
+      "key": "- Means increased intracranial pressure on USMLE.\n- Papilledema refers to blurring of the optic disc margins due inflammation of the optic nerve head in the\nsetting of increased intracranial pressure.",
+      "source_page": 18,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 15.81,
+        "http_status": 200,
+        "prompt_tokens": 1635,
+        "completion_tokens": 124,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 15.81,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"blurring of the optic disc margins due to inflammation of the optic nerve head\",\n      \"points_to\": \"papilledema\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"increased intracranial pressure\",\n      \"points_to\": \"increased intracranial pressure\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "blurring of the optic disc margins due to inflammation of the optic nerve head",
+            "points_to": "papilledema",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "increased intracranial pressure",
+            "points_to": "increased intracranial pressure",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Neurology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 41,
+      "index": 41,
+      "section": "HY Autoimmune eye pathologies",
+      "key": "Anterior uveitis",
+      "source_page": 18,
+      "input_body_preview": "- WBCs in the anterior chamber sometimes seen in flares of autoimmune diseases,\nespecially sarcoidosis and ankylosing spondylitis.\n- USMLE might sometimes just give you patient with sarcoidosis and th",
+      "timing": {
+        "total_s": 18.41,
+        "http_status": 200,
+        "prompt_tokens": 1675,
+        "completion_tokens": 142,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 18.41,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"WBCs in the anterior chamber\",\n      \"points_to\": \"anterior uveitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with sarcoidosis\",\n      \"points_to\": \"slit-lamp examination to check for anterior uveitis\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"related_conditions\": [\"sarcoidosis\", \"ankylosing spondylitis\"]\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "WBCs in the anterior chamber",
+            "points_to": "anterior uveitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with sarcoidosis",
+            "points_to": "slit-lamp examination to check for anterior uveitis",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "related_conditions": [
+            "sarcoidosis",
+            "ankylosing spondylitis"
+          ]
+        }
+      }
+    },
+    {
+      "entry_position": 42,
+      "index": 42,
+      "section": "HY Autoimmune eye pathologies",
+      "key": "Keratoconjunctivitis\nsicca",
+      "source_page": 18,
+      "input_body_preview": "- Dry eye (xerophthalmia) caused by decreased tear production.\n- Classically autoimmune, either a stand-alone condition or as part of Sjögren\nsyndrome.\n- Latter presents additionally with dry mouth (x",
+      "timing": {
+        "total_s": 18.25,
+        "http_status": 200,
+        "prompt_tokens": 1660,
+        "completion_tokens": 145,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 18.25,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"dry eye (xerophthalmia) caused by decreased tear production\",\n      \"points_to\": \"Keratoconjunctivitis sicca\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"dry mouth (xerostomia) and dry eye with systemic findings such as arthritis\",\n      \"points_to\": \"Sjögren syndrome\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\", \"Immunology / Allergy\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "dry eye (xerophthalmia) caused by decreased tear production",
+            "points_to": "Keratoconjunctivitis sicca",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "dry mouth (xerostomia) and dry eye with systemic findings such as arthritis",
+            "points_to": "Sjögren syndrome",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology",
+              "Immunology / Allergy"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 43,
+      "index": 43,
+      "section": "HY Autoimmune eye pathologies",
+      "key": "Dermatomyositis",
+      "source_page": 18,
+      "input_body_preview": "- Causes heliotrope rash (violaceous eyelids).\n- Don't confuse with the malar rash of lupus.\n- Violaceous eyelids can also be seen in neuroblastoma in Peds, albeit completely\nunrelated. I just mention",
+      "timing": {
+        "total_s": 13.72,
+        "http_status": 200,
+        "prompt_tokens": 1657,
+        "completion_tokens": 105,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 13.72,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"heliotrope rash (violaceous eyelids)\",\n      \"points_to\": \"Dermatomyositis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"related_condition\": \"malar rash of lupus\",\n    \"pediatric_note\": \"violaceous eyelids can also be seen in neuroblastoma\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "heliotrope rash (violaceous eyelids)",
+            "points_to": "Dermatomyositis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "related_condition": "malar rash of lupus",
+          "pediatric_note": "violaceous eyelids can also be seen in neuroblastoma"
+        }
+      }
+    },
+    {
+      "entry_position": 44,
+      "index": 44,
+      "section": "Miscellaneous hereditary conditions",
+      "key": "Leber hereditary\noptic neuropathy",
+      "source_page": 19,
+      "input_body_preview": "- USMLE wants you to know that mitochondrial disorders, e.g., LHON, present as a\ntriad of 1) eye/ear problems, 2) hypotonia, and 3) lactic acidosis (low bicarb; metabolic\nacidosis).\n- Other mitochondr",
+      "timing": {
+        "total_s": 31.17,
+        "http_status": 200,
+        "prompt_tokens": 1725,
+        "completion_tokens": 261,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 35.36,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[0].organ_systems[1]='Misc.' not in taxonomy"
+        },
+        {
+          "attempt": 2,
+          "timing_s": 31.22,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[0].organ_systems[1]='Misc.' not in taxonomy"
+        },
+        {
+          "attempt": 3,
+          "timing_s": 33.05,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[0].organ_systems[1]='Misc.' not in taxonomy"
+        },
+        {
+          "attempt": 4,
+          "timing_s": 31.17,
+          "outcome": "schema_error",
+          "error": "pointer_phrases[0].organ_systems[1]='Misc.' not in taxonomy"
+        }
+      ],
+      "status": "retry_exhausted",
+      "error": "schema_error: pointer_phrases[0].organ_systems[1]='Misc.' not in taxonomy",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"triad of eye/ear problems, hypotonia, and lactic acidosis\",\n      \"points_to\": \"mitochondrial disorders\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\", \"Misc.\"]\n    },\n    {\n      \"phrase\": \"lactic acidosis with low bicarbonate\",\n      \"points_to\": \"mitochondrial disorders\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Neurology\", \"Misc.\"]\n    },\n    {\n      \"phrase\": \"mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes\",\n      \"points_to\": \"MELAS\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Neurology\"]\n    },\n    {\n      \"phrase\": \"myoclonic epilepsy with ragged red fibers\",\n      \"points_to\": \"MERRF\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Neurology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"gene\": \"mitochondrial DNA\",\n    \"inheritance\": \"maternal inheritance\"\n  }\n}"
+    },
+    {
+      "entry_position": 45,
+      "index": 45,
+      "section": "Miscellaneous hereditary conditions",
+      "key": "Osteogenesis\nimperfecta",
+      "source_page": 19,
+      "input_body_preview": "- Collagen I mutation.\n- Can cause the very buzzy blue sclerae.",
+      "timing": {
+        "total_s": 11.67,
+        "http_status": 200,
+        "prompt_tokens": 1613,
+        "completion_tokens": 87,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 11.67,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"blue sclerae\",\n      \"points_to\": \"Osteogenesis Imperfecta\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Musculoskeletal\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"gene\": \"Collagen I\",\n    \"mutation_type\": \"Collagen I mutation\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "blue sclerae",
+            "points_to": "Osteogenesis Imperfecta",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Musculoskeletal"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "gene": "Collagen I",
+          "mutation_type": "Collagen I mutation"
+        }
+      }
+    },
+    {
+      "entry_position": 46,
+      "index": 46,
+      "section": "Miscellaneous hereditary conditions",
+      "key": "Alport syndrome",
+      "source_page": 19,
+      "input_body_preview": "- Mutation in type IV collagen; X-linked recessive.\n- The answer on USMLE for eye and/or ear problem + red urine.",
+      "timing": {
+        "total_s": 12.78,
+        "http_status": 200,
+        "prompt_tokens": 1619,
+        "completion_tokens": 99,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 12.78,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"eye and/or ear problem + red urine\",\n      \"points_to\": \"Alport syndrome\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Renal / Genitourinary\", \"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"gene\": \"type IV collagen\",\n    \"inheritance\": \"X-linked recessive\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "eye and/or ear problem + red urine",
+            "points_to": "Alport syndrome",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Renal / Genitourinary",
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "gene": "type IV collagen",
+          "inheritance": "X-linked recessive"
+        }
+      }
+    },
+    {
+      "entry_position": 47,
+      "index": 47,
+      "section": "Miscellaneous hereditary conditions",
+      "key": "Marfan syndrome",
+      "source_page": 19,
+      "input_body_preview": "- Can cause lens dislocations.",
+      "timing": {
+        "total_s": 8.62,
+        "http_status": 200,
+        "prompt_tokens": 1598,
+        "completion_tokens": 62,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 8.62,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"lens dislocation\",\n      \"points_to\": \"Marfan syndrome\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "lens dislocation",
+            "points_to": "Marfan syndrome",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 48,
+      "index": 48,
+      "section": "Miscellaneous hereditary conditions",
+      "key": "Homocystinuria",
+      "source_page": 19,
+      "input_body_preview": "- Can cause lens dislocations.",
+      "timing": {
+        "total_s": 8.33,
+        "http_status": 200,
+        "prompt_tokens": 1600,
+        "completion_tokens": 64,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 8.33,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"lens dislocations\",\n      \"points_to\": \"Homocystinuria\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "lens dislocations",
+            "points_to": "Homocystinuria",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 49,
+      "index": 49,
+      "section": "Ophthalmia neonatorum",
+      "key": "",
+      "source_page": 19,
+      "input_body_preview": "- Fancy way of saying neonatal conjunctivitis.",
+      "timing": {
+        "total_s": 9.35,
+        "http_status": 200,
+        "prompt_tokens": 1602,
+        "completion_tokens": 70,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 9.35,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"neonatal conjunctivitis\",\n      \"points_to\": \"Ophthalmia neonatorum\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "neonatal conjunctivitis",
+            "points_to": "Ophthalmia neonatorum",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 50,
+      "index": 50,
+      "section": "Ophthalmia neonatorum",
+      "key": "Chlamydia",
+      "source_page": 19,
+      "input_body_preview": "- Caused by C. trachomatis D-K (the STD).\n- Presents usually >1 week post-birth and can lead to pneumonia with a lymphocytic shift\n(since chlamydia is obligate intracellular, so requires lymphocytes f",
+      "timing": {
+        "total_s": 36.29,
+        "http_status": 200,
+        "prompt_tokens": 1821,
+        "completion_tokens": 283,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 36.29,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"conjunctivitis presenting >1 week post-birth\",\n      \"points_to\": \"Ophthalmia neonatorum caused by Chlamydia trachomatis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"wheezes, crackles, and fever in a 3-week-old with history of chlamydia conjunctivitis\",\n      \"points_to\": \"chlamydial pneumonia in neonate\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Pulmonary\"]\n    },\n    {\n      \"phrase\": \"topical erythromycin treatment for chlamydia conjunctivitis in neonate\",\n      \"points_to\": \"oral erythromycin treatment needed for chlamydia conjunctivitis in neonate\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"pathogen\": \"Chlamydia trachomatis D-K\",\n    \"prophylaxis\": \"treating the mother during pregnancy if she has chlamydia\",\n    \"incorrect_treatment\": \"topical erythromycin\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "conjunctivitis presenting >1 week post-birth",
+            "points_to": "Ophthalmia neonatorum caused by Chlamydia trachomatis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "wheezes, crackles, and fever in a 3-week-old with history of chlamydia conjunctivitis",
+            "points_to": "chlamydial pneumonia in neonate",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Pulmonary"
+            ]
+          },
+          {
+            "phrase": "topical erythromycin treatment for chlamydia conjunctivitis in neonate",
+            "points_to": "oral erythromycin treatment needed for chlamydia conjunctivitis in neonate",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "pathogen": "Chlamydia trachomatis D-K",
+          "prophylaxis": "treating the mother during pregnancy if she has chlamydia",
+          "incorrect_treatment": "topical erythromycin"
+        }
+      }
+    },
+    {
+      "entry_position": 51,
+      "index": 51,
+      "section": "Ophthalmia neonatorum",
+      "key": "Gonorrhea",
+      "source_page": 19,
+      "input_body_preview": "- Gonococcal conjunctivitis will present in the first week of life with yellow discharge from\nthe eye(s).\n- The USMLE vignette will be vague, where the student says, \"But how are we supposed to\nknow i",
+      "timing": {
+        "total_s": 23.51,
+        "http_status": 200,
+        "prompt_tokens": 1749,
+        "completion_tokens": 180,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 23.51,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"yellow discharge from the eye(s) in the first week of life\",\n      \"points_to\": \"Gonococcal conjunctivitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"newborn with yellow discharge from the eye(s) in the first week of life\",\n      \"points_to\": \"erythromycin ointment prophylaxis\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"prophylaxis\": \"erythromycin ointment\",\n    \"treatment\": \"IM 3rd-gen cephalosporin (cefotaxime)\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "yellow discharge from the eye(s) in the first week of life",
+            "points_to": "Gonococcal conjunctivitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "newborn with yellow discharge from the eye(s) in the first week of life",
+            "points_to": "erythromycin ointment prophylaxis",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "prophylaxis": "erythromycin ointment",
+          "treatment": "IM 3rd-gen cephalosporin (cefotaxime)"
+        }
+      }
+    },
+    {
+      "entry_position": 52,
+      "index": 52,
+      "section": "Ophthalmia neonatorum",
+      "key": "Chemical",
+      "source_page": 19,
+      "input_body_preview": "- Chemical conjunctivitis is classically due to silver nitrate eyedrops that used to be given\nto neonates for gonococcal prophylaxis. However, they have been replaced by\nerythromycin ointment.",
+      "timing": {
+        "total_s": 14.01,
+        "http_status": 200,
+        "prompt_tokens": 1641,
+        "completion_tokens": 106,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 14.01,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"neonate with conjunctivitis after silver nitrate eyedrops\",\n      \"points_to\": \"chemical conjunctivitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"prophylaxis_agent\": \"silver nitrate\",\n    \"replacement_prophylaxis\": \"erythromycin ointment\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "neonate with conjunctivitis after silver nitrate eyedrops",
+            "points_to": "chemical conjunctivitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "prophylaxis_agent": "silver nitrate",
+          "replacement_prophylaxis": "erythromycin ointment"
+        }
+      }
+    },
+    {
+      "entry_position": 53,
+      "index": 53,
+      "section": "Ophthalmia neonatorum",
+      "key": "Viral",
+      "source_page": 20,
+      "input_body_preview": "- Viral conjunctivitis will present as teary eye that is either unilateral or bilateral, and\neither itchy or non-itchy. I've seen variable presentation on USMLE. You just need to know\nthis is the most",
+      "timing": {
+        "total_s": 15.35,
+        "http_status": 200,
+        "prompt_tokens": 1674,
+        "completion_tokens": 104,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 15.35,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"teary eye that is either unilateral or bilateral, and either itchy or non-itchy\",\n      \"points_to\": \"viral conjunctivitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"caused_by\": \"adenovirus\",\n    \"type_of_virus\": \"DNA virus\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "teary eye that is either unilateral or bilateral, and either itchy or non-itchy",
+            "points_to": "viral conjunctivitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "caused_by": "adenovirus",
+          "type_of_virus": "DNA virus"
+        }
+      }
+    },
+    {
+      "entry_position": 54,
+      "index": 54,
+      "section": "Ophthalmia neonatorum",
+      "key": "Allergic",
+      "source_page": 20,
+      "input_body_preview": "- USMLE wants you to know that \"cobblestoning\" of the tarsal conjunctiva is buzzy for\nallergic conjunctivitis.\n- Likewise, for allergic rhinitis, they can say cobblestoning of the nasal mucosa.\n- Some",
+      "timing": {
+        "total_s": 10.6,
+        "http_status": 200,
+        "prompt_tokens": 1677,
+        "completion_tokens": 73,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 10.6,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"cobblestoning of the tarsal conjunctiva\",\n      \"points_to\": \"allergic conjunctivitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "cobblestoning of the tarsal conjunctiva",
+            "points_to": "allergic conjunctivitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 55,
+      "index": 55,
+      "section": "Herpesviridae infections",
+      "key": "Herpes\nkeratitis",
+      "source_page": 20,
+      "input_body_preview": "- Keratitis is inflammation of the cornea.\n- HSV1/2 can cause dendritic (tree-like) pattern in the eye on fluorescein instillation.\n- May or may not cause vesicles around the eye as well.\n- Tx with to",
+      "timing": {
+        "total_s": 23.74,
+        "http_status": 200,
+        "prompt_tokens": 1658,
+        "completion_tokens": 191,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 23.74,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"dendritic (tree-like) pattern in the eye on fluorescein instillation\",\n      \"points_to\": \"Herpes keratitis\",\n      \"strength\": \"pathognomonic\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"vesicles around the eye\",\n      \"points_to\": \"Herpes keratitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"patient with Herpes keratitis\",\n      \"points_to\": \"topical acyclovir/valacyclovir\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"caused_by\": \"HSV1/2\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "dendritic (tree-like) pattern in the eye on fluorescein instillation",
+            "points_to": "Herpes keratitis",
+            "strength": "pathognomonic",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "vesicles around the eye",
+            "points_to": "Herpes keratitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "patient with Herpes keratitis",
+            "points_to": "topical acyclovir/valacyclovir",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "caused_by": "HSV1/2"
+        }
+      }
+    },
+    {
+      "entry_position": 56,
+      "index": 56,
+      "section": "Herpesviridae infections",
+      "key": "Herpes zoster\nophthalmicus",
+      "source_page": 20,
+      "input_body_preview": "- VZV (HHV-3) can cause shingles of the eye.\n- Causes keratitis with a similar dendritic pattern to HSV 1/2.\n- May or may not cause vesicles around the eye as well.\n- Tx with topical acyclovir/valacyl",
+      "timing": {
+        "total_s": 23.5,
+        "http_status": 200,
+        "prompt_tokens": 1662,
+        "completion_tokens": 189,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 23.5,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"keratitis with a dendritic pattern\",\n      \"points_to\": \"Herpes zoster ophthalmicus\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"vesicles around the eye\",\n      \"points_to\": \"Herpes zoster ophthalmicus\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"Herpes zoster ophthalmicus\",\n      \"points_to\": \"topical acyclovir/valacyclovir\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {\n    \"virus\": \"VZV (HHV-3)\"\n  }\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "keratitis with a dendritic pattern",
+            "points_to": "Herpes zoster ophthalmicus",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "vesicles around the eye",
+            "points_to": "Herpes zoster ophthalmicus",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "Herpes zoster ophthalmicus",
+            "points_to": "topical acyclovir/valacyclovir",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {
+          "virus": "VZV (HHV-3)"
+        }
+      }
+    },
+    {
+      "entry_position": 57,
+      "index": 57,
+      "section": "Herpesviridae infections",
+      "key": "CMV retinitis",
+      "source_page": 20,
+      "input_body_preview": "- The answer for blurry vision in severely immunocompromised patient (usually AIDS).\n- You don't need to know the fundoscopy.\n- Treat with ganciclovir.",
+      "timing": {
+        "total_s": 16.29,
+        "http_status": 200,
+        "prompt_tokens": 1633,
+        "completion_tokens": 127,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 16.29,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": [\n    {\n      \"phrase\": \"blurry vision in a severely immunocompromised patient, usually AIDS\",\n      \"points_to\": \"CMV retinitis\",\n      \"strength\": \"suggestive\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    },\n    {\n      \"phrase\": \"severely immunocompromised patient with blurry vision\",\n      \"points_to\": \"ganciclovir\",\n      \"strength\": \"management-guiding\",\n      \"organ_systems\": [\"Ophthalmology\"]\n    }\n  ],\n  \"also_mentioned\": {}\n}",
+      "parsed": {
+        "pointer_phrases": [
+          {
+            "phrase": "blurry vision in a severely immunocompromised patient, usually AIDS",
+            "points_to": "CMV retinitis",
+            "strength": "suggestive",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          },
+          {
+            "phrase": "severely immunocompromised patient with blurry vision",
+            "points_to": "ganciclovir",
+            "strength": "management-guiding",
+            "organ_systems": [
+              "Ophthalmology"
+            ]
+          }
+        ],
+        "also_mentioned": {}
+      }
+    },
+    {
+      "entry_position": 58,
+      "index": 58,
+      "section": "Herpesviridae infections",
+      "key": "All material is copyrighted and the property of mehlmanmedical.",
+      "source_page": 124,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 10.27,
+        "http_status": 200,
+        "prompt_tokens": 1602,
+        "completion_tokens": 10,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 10.27,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": []\n}",
+      "parsed": {
+        "pointer_phrases": []
+      }
+    },
+    {
+      "entry_position": 59,
+      "index": 59,
+      "section": "Herpesviridae infections",
+      "key": "Copyright © mehlmanmedical",
+      "source_page": 124,
+      "input_body_preview": "",
+      "timing": {
+        "total_s": 2.05,
+        "http_status": 200,
+        "prompt_tokens": 1596,
+        "completion_tokens": 10,
+        "finish_reason": "stop"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "timing_s": 2.05,
+          "outcome": "ok"
+        }
+      ],
+      "status": "ok",
+      "raw_response": "{\n  \"pointer_phrases\": []\n}",
+      "parsed": {
+        "pointer_phrases": []
+      }
+    }
+  ]
+}
